@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30594d42-f89b-4c66-815b-c63419ad3a3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/GameManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Grid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IEntities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IMonster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IMovementReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IntReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Monsters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/treasure/org/MonstersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/treasure/org/PlayersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/treasure/org/MonstersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/treasure/org/MonstersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

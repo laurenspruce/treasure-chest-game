@@ -9,7 +9,7 @@ public class MonstersTest {
     private Monsters cut; //Class under test
 
     @Test
-    void testMonsterGreeting(){
+    void verify_monster_greeting(){
 
         //  Arrange
         cut = new Monsters("Minecraft Spider");
