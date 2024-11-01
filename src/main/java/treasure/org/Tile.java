@@ -1,2 +1,5 @@
-package treasure.org;public class Tile {
+package treasure.org;
+
+public class Tile {
+
 }

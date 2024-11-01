@@ -1,4 +1,7 @@
 package treasure.org;
 
-public class MovementReader {
+public interface IMovementReader extends IReader {
+
+    String readDirection();
+
 }

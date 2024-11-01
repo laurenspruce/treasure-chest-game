@@ -1,2 +1,6 @@
-package treasure.org;public class IEntities {
+package treasure.org;
+
+public interface IEntities {
+
+    String getGreeting();
 }

@@ -1,2 +1,7 @@
-package treasure.org;public class IntReader {
+package treasure.org;
+
+public class IntReader {
+
+    //  IGrid sizing
+
 }

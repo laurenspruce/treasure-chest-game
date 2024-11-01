@@ -1,2 +1,4 @@
-package treasure.org;public class IPlayer {
+package treasure.org;
+
+public interface IPlayer {
 }

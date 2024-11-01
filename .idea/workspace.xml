@@ -5,21 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30594d42-f89b-4c66-815b-c63419ad3a3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/jvm.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/maven.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/treasure/org/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/GameManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Grid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IEntities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IMonster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IMovementReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IntReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Monsters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/treasure/org/MonstersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/App.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +42,9 @@
   "associatedIndex": 6
 }]]></component>
   <component name="ProjectId" id="2oFJakzmI0dciHT9JnyLp59fCyY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,12 +53,36 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="MonstersTest.testMonsterGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="treasure_chest_game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="treasure.org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="treasure.org" />
+      <option name="MAIN_CLASS_NAME" value="treasure.org.MonstersTest" />
+      <option name="METHOD_NAME" value="testMonsterGreeting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MonstersTest.testMonsterGreeting" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

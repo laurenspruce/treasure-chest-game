@@ -1,2 +1,7 @@
-package treasure.org;public class IReader {
+package treasure.org;
+
+public interface IReader {
+
+    String readInput();
+
 }

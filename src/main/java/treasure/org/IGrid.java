@@ -1,7 +1,11 @@
 package treasure.org;
 
-public class Grid {
+public interface IGrid {
 
     //  Setting up a 2D array
+    void initialise(int size);
+    void placeTreasure();
+    int getTreasureDistance(int playerX, int playerY);
+
 
 }
