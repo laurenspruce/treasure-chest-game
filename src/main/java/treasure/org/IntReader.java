@@ -1,7 +1,16 @@
 package treasure.org;
 
-public class IntReader {
+import java.util.Scanner;
 
-    //  IGrid sizing
+public class IntReader implements IReader {
+    private Scanner scanner;
 
+    public IntReader() {
+        this.scanner = new Scanner(System.in);
+    }
+
+    @Override
+    public String readInput() {
+        return scanner.nextLine();
+    }
 }

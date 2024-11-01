@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30594d42-f89b-4c66-815b-c63419ad3a3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/treasure/org/GridTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/MonsterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/MovementReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasure/org/StartGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasure/org/GameManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Grid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/IGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/IEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/IMonster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IMonster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/IMovementReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IMovementReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/IntReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IntReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/Monsters.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/treasure/org/MonstersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/treasure/org/MonstersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +58,20 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.GridTest.verifying_the_treasure_distance">
+  <component name="RunManager" selected="Application.StartGame">
+    <configuration name="StartGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="treasure.org.StartGame" />
+      <module name="treasure_chest_game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="treasure.org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GridTest.verifying_the_treasure_distance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="treasure_chest_game" />
       <extension name="coverage">
@@ -85,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartGame" />
         <item itemvalue="JUnit.GridTest.verifying_the_treasure_distance" />
         <item itemvalue="JUnit.MonstersTest.testMonsterGreeting" />
       </list>

@@ -17,20 +17,20 @@ public class Player {
         return y;
     }
 
-    public void move(String direction) {
-        switch (direction) {
-            case "up":
-                y--;
-                break;
-            case "down":
-                y++;
-                break;
-            case "left":
-                x--;
-                break;
-            case "right":
-                x++;
-                break;
-        }
+    // Update move methods to change position
+    public void moveUp() {
+        y--; // Move up decreases y-coordinate
+    }
+
+    public void moveDown() {
+        y++; // Move down increases y-coordinate
+    }
+
+    public void moveLeft() {
+        x--; // Move left decreases x-coordinate
+    }
+
+    public void moveRight() {
+        x++; // Move right increases x-coordinate
     }
 }

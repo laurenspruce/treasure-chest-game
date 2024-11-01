@@ -1,6 +1,5 @@
 package treasure.org;
 
 public interface IEntities {
-
-    String getGreeting();
+    String greet();
 }
