@@ -1,28 +1,26 @@
 package treasure.org;
 
-import java.util.Random;
-
-public class Grid implements IGrid{
-
-    private int size;
-    private int treasureX, treasureY;
+public class Grid implements IGrid {
+    private int[][] grid;
+    private int treasureX;
+    private int treasureY;
 
     @Override
-    public void initialise(int size){
-        this.size = size;
-        placeTreasure();
+    public void initialize(int size) {
+        grid = new int[size][size]; // Create a grid of given size
     }
 
     @Override
-    public void placeTreasure(){
-        Random random = new Random();
-        treasureX = random.nextInt(size);
-        treasureY = random.nextInt(size);
+    public void placeTreasure(int x, int y) {
+        this.treasureX = x;
+        this.treasureY = y;
     }
 
     @Override
-    public int getTreasureDistance(int playerX, int playerY){
-        return Math.abs(treasureX - playerX) + (treasureY - playerY);
+    public int getTreasureDistance(Player player) {
+        int playerX = player.getX();
+        int playerY = player.getY();
+        // Calculate the Manhattan distance
+        return Math.abs(playerX - treasureX) + Math.abs(playerY - treasureY);
     }
-
 }

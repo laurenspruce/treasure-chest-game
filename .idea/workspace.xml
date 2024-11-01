@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30594d42-f89b-4c66-815b-c63419ad3a3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/treasure/org/PlayersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/treasure/org/GridTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/treasure/org/MonstersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/treasure/org/MonstersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/IGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasure/org/IGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasure/org/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasure/org/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,23 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GridTest.verifying_the_treasure_distance">
+    <configuration name="GridTest.verifying_the_treasure_distance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="treasure_chest_game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="treasure.org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="treasure.org" />
+      <option name="MAIN_CLASS_NAME" value="treasure.org.GridTest" />
+      <option name="METHOD_NAME" value="verifying_the_treasure_distance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MonstersTest.testMonsterGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="treasure_chest_game" />
       <extension name="coverage">
@@ -66,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GridTest.verifying_the_treasure_distance" />
         <item itemvalue="JUnit.MonstersTest.testMonsterGreeting" />
       </list>
     </recent_temporary>
